@@ -1,0 +1,16 @@
+2026-10-21 23:28:47,673 INFO MainThread Starting Beamer Windows receiver
+2026-10-21 23:28:47,673 INFO MainThread Logging to C:\Users\Administrator\AppData\Local\Beamer\Beamer.log
+2026-10-21 23:28:48,328 INFO MainThread Window painted 0.871 seconds after process start
+2026-10-21 23:28:50,012 INFO Beamer-v6-server Listening for version 6 links on 0.0.0.0:24820
+2026-10-21 23:29:28,412 INFO Beamer-link link route outbound 192.168.1.6:50117->192.168.1.3:24820 interface_address=192.168.1.6 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:29:28,444 INFO Beamer-link link timing outbound 192.168.1.6:50117->192.168.1.3:24820 ping_rtt_ms=unavailable read_dispatch_ms(count/mean/max)=3/0.818/2.238 write_ms(count/mean/max)=4/0.136/0.325 writer_wait_lag_ms(count/mean/max)=1/0.000/0.000
+2026-10-21 23:29:30,367 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:29:31,048 INFO Beamer-v6-link link route inbound 192.168.1.6:24820->192.168.1.3:50713 interface_address=192.168.1.6 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:29:34,468 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 2408, last acked seq 2407, 1488 unacknowledged
+2026-10-21 23:29:34,468 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:29:34,469 INFO Beamer-hooks input returned to this PC (link_lost)
+2026-10-21 23:29:34,469 INFO Beamer-link link timing outbound 192.168.1.6:50117->192.168.1.3:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=3895/0.041/1.694 read_dispatch_ms(count/mean/max)=271/0.056/0.695 write_ms(count/mean/max)=3906/0.058/4.604 writer_wait_lag_ms(count/mean/max)=3916/0.104/18.942
+2026-10-21 23:29:36,565 INFO Beamer-link link route outbound 192.168.1.6:50118->192.168.1.3:24820 interface_address=192.168.1.6 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:30:01,341 INFO Beamer-v6-link link timing inbound 192.168.1.6:24820->192.168.1.3:50713 ping_rtt_ms=7 ack_due_lag_ms(count/mean/max)=73/12.368/16.182 decode_ms(count/mean/max)=63/0.137/0.245 dispatch_ms(count/mean/max)=63/0.120/2.990 receive_queue_ms(count/mean/max)=63/0.089/0.287 write_ms(count/mean/max)=136/0.302/0.951 writer_wait_lag_ms(count/mean/max)=180/6.498/16.561
+2026-10-21 23:30:03,793 INFO Beamer-v6-link link timing inbound 192.168.1.6:24820->192.168.1.3:50713 ping_rtt_ms=unavailable ack_due_lag_ms(count/mean/max)=6/10.286/15.064 decode_ms(count/mean/max)=4/0.146/0.228 dispatch_ms(count/mean/max)=4/0.041/0.071 receive_queue_ms(count/mean/max)=4/0.085/0.136 write_ms(count/mean/max)=10/0.273/0.444 writer_wait_lag_ms(count/mean/max)=15/5.044/15.055
+2026-10-21 23:30:03,793 INFO Beamer-link link timing outbound 192.168.1.6:50118->192.168.1.3:24820 ping_rtt_ms=unavailable read_dispatch_ms(count/mean/max)=123/0.225/3.481 write_ms(count/mean/max)=56/0.257/0.707 writer_wait_lag_ms(count/mean/max)=455/11.690/17.747

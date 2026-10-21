@@ -1,0 +1,95 @@
+2026-10-21 23:12:08,568 INFO MainThread Starting Beamer Windows receiver
+2026-10-21 23:12:08,568 INFO MainThread Logging to C:\Users\Administrator\AppData\Local\Beamer\Beamer.log
+2026-10-21 23:12:09,163 INFO MainThread Window painted 0.838 seconds after process start
+2026-10-21 23:12:10,744 INFO Beamer-firewall-first Adding this PC's firewall rules before listening
+2026-10-21 23:12:37,822 INFO Beamer-discovery paired with QZZ1 at 192.168.2.10
+2026-10-21 23:12:37,832 INFO Beamer-v6-server Listening for version 6 links on 0.0.0.0:24820
+2026-10-21 23:12:38,076 INFO Beamer-v6-link link route inbound 192.168.2.11:24820->192.168.2.10:60521 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:12:38,492 INFO Beamer-link link route outbound 192.168.2.11:57996->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:12:52,192 INFO Beamer-v6-link QZZ1's pointer arrived at this machine's top edge
+2026-10-21 23:12:52,256 INFO Beamer-v6-link The pointer pushed through the zone at this machine's top edge; asking QZZ1 to move its input on
+2026-10-21 23:13:07,848 INFO Beamer-link link timing outbound 192.168.2.11:57996->192.168.2.10:24820 ping_rtt_ms=1 read_dispatch_ms(count/mean/max)=134/0.223/3.271 write_ms(count/mean/max)=62/0.140/0.396 writer_wait_lag_ms(count/mean/max)=488/12.379/17.470
+2026-10-21 23:13:08,199 INFO Beamer-v6-link link timing inbound 192.168.2.11:24820->192.168.2.10:60521 ping_rtt_ms=3 ack_due_lag_ms(count/mean/max)=77/11.026/16.664 decode_ms(count/mean/max)=76/0.138/0.229 dispatch_ms(count/mean/max)=76/0.407/11.039 inject_ms(count/mean/max)=6/0.953/1.408 input_callbacks_ms(count/mean/max)=9/0.102/0.730 input_lock_ms(count/mean/max)=9/0.001/0.003 mouse_inject_ms(count/mean/max)=6/0.794/1.220 receive_queue_ms(count/mean/max)=76/0.158/2.219 return_seam_ms(count/mean/max)=6/0.145/0.367 write_ms(count/mean/max)=143/0.245/0.839 writer_wait_lag_ms(count/mean/max)=224/5.009/16.654 zones_ms(count/mean/max)=9/0.446/1.053
+2026-10-21 23:13:24,986 INFO Beamer-v6-link QZZ1's pointer arrived at this machine's left edge
+2026-10-21 23:13:35,233 INFO Beamer-links-home Sending QZZ1's input home from here
+2026-10-21 23:13:35,254 INFO Beamer-links-home input is on QZZ1, at its right edge
+2026-10-21 23:13:37,857 INFO Beamer-link link timing outbound 192.168.2.11:57996->192.168.2.10:24820 ping_rtt_ms=918 input_queue_ms(count/mean/max)=1918/0.051/0.847 read_dispatch_ms(count/mean/max)=287/0.141/0.381 write_ms(count/mean/max)=1978/0.067/2.728 writer_wait_lag_ms(count/mean/max)=2386/2.335/18.116
+2026-10-21 23:13:38,498 INFO Beamer-link round trip to QZZ1: 201 samples, median 664.2 ms, 95th percentile 1167.8 ms, largest 1254.0 ms, mean held_us 992 (input ACK, outbound connection)
+2026-10-21 23:13:38,623 INFO Beamer-v6-link link timing inbound 192.168.2.11:24820->192.168.2.10:60521 ping_rtt_ms=1 ack_due_lag_ms(count/mean/max)=434/3.022/16.515 decode_ms(count/mean/max)=781/0.150/0.459 dispatch_ms(count/mean/max)=781/1.398/13.643 inject_ms(count/mean/max)=716/1.014/13.480 input_callbacks_ms(count/mean/max)=716/0.010/1.067 input_lock_ms(count/mean/max)=716/0.002/0.015 mouse_inject_ms(count/mean/max)=703/0.823/6.153 receive_queue_ms(count/mean/max)=781/0.198/3.171 return_seam_ms(count/mean/max)=703/0.147/1.638 write_ms(count/mean/max)=498/0.279/1.726 writer_wait_lag_ms(count/mean/max)=1810/0.864/16.512 zones_ms(count/mean/max)=716/0.399/3.914
+2026-10-21 23:13:39,064 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 1873, last acked seq 1872, 912 unacknowledged
+2026-10-21 23:13:39,064 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:13:39,064 INFO Beamer-hooks input returned to this PC (link_lost)
+2026-10-21 23:13:39,065 INFO Beamer-link link timing outbound 192.168.2.11:57996->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=866/0.054/0.373 read_dispatch_ms(count/mean/max)=77/0.102/0.443 write_ms(count/mean/max)=868/0.072/0.729 writer_wait_lag_ms(count/mean/max)=867/0.017/14.438
+2026-10-21 23:13:41,143 INFO Beamer-link link route outbound 192.168.2.11:58014->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:01,743 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:08,851 INFO Beamer-v6-link link timing inbound 192.168.2.11:24820->192.168.2.10:60521 ping_rtt_ms=2 ack_due_lag_ms(count/mean/max)=73/10.711/15.926 decode_ms(count/mean/max)=60/0.115/0.244 dispatch_ms(count/mean/max)=60/0.034/0.070 receive_queue_ms(count/mean/max)=60/0.075/0.133 write_ms(count/mean/max)=133/0.174/0.635 writer_wait_lag_ms(count/mean/max)=177/5.647/16.418
+2026-10-21 23:14:09,065 INFO Beamer-link link timing outbound 192.168.2.11:58014->192.168.2.10:24820 ping_rtt_ms=986 input_queue_ms(count/mean/max)=4680/0.058/0.843 read_dispatch_ms(count/mean/max)=561/0.132/1.754 write_ms(count/mean/max)=4738/0.087/6.069 writer_wait_lag_ms(count/mean/max)=5025/0.892/18.025
+2026-10-21 23:14:12,989 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 6646, last acked seq 6645, 908 unacknowledged
+2026-10-21 23:14:12,989 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:14:12,989 INFO Beamer-hooks input returned to this PC (link_lost)
+2026-10-21 23:14:12,989 INFO Beamer-link link timing outbound 192.168.2.11:58014->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=2873/0.047/0.309 read_dispatch_ms(count/mean/max)=252/0.094/0.332 write_ms(count/mean/max)=2877/0.052/1.289 writer_wait_lag_ms(count/mean/max)=2883/0.037/16.696
+2026-10-21 23:14:15,064 INFO Beamer-link link route outbound 192.168.2.11:58019->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:15,261 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:19,201 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 2070, last acked seq 2069, 846 unacknowledged
+2026-10-21 23:14:19,201 INFO Beamer-link link timing outbound 192.168.2.11:58019->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=2915/0.034/1.702 read_dispatch_ms(count/mean/max)=255/0.148/8.600 write_ms(count/mean/max)=2927/0.057/1.148 writer_wait_lag_ms(count/mean/max)=2922/0.025/16.330
+2026-10-21 23:14:19,201 INFO Beamer-link input returned to this PC (link_lost)
+2026-10-21 23:14:21,299 INFO Beamer-link link route outbound 192.168.2.11:58020->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:21,665 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:24,514 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 1091, last acked seq 1090, 1281 unacknowledged
+2026-10-21 23:14:24,515 INFO Beamer-link-writer Sending to QZZ1 failed: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2026-10-21 23:14:24,516 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:14:24,517 INFO Beamer-hooks input returned to this PC (link_lost)
+2026-10-21 23:14:24,516 INFO Beamer-link link timing outbound 192.168.2.11:58020->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=2372/0.048/0.836 read_dispatch_ms(count/mean/max)=183/0.100/3.242 write_ms(count/mean/max)=2381/0.057/0.774 writer_wait_lag_ms(count/mean/max)=2382/0.025/16.366
+2026-10-21 23:14:26,610 INFO Beamer-link link route outbound 192.168.2.11:58021->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:27,728 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:35,187 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 4767, last acked seq 4766, 1332 unacknowledged
+2026-10-21 23:14:35,187 WARNING Beamer-links-out input could not be sent to QZZ1
+2026-10-21 23:14:35,187 INFO Beamer-links-out input returned to this PC (link_lost)
+2026-10-21 23:14:35,188 INFO Beamer-link link timing outbound 192.168.2.11:58021->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=6098/0.046/1.340 read_dispatch_ms(count/mean/max)=486/0.093/3.271 write_ms(count/mean/max)=6118/0.060/1.611 writer_wait_lag_ms(count/mean/max)=6113/0.037/16.498
+2026-10-21 23:14:37,245 INFO Beamer-link link route outbound 192.168.2.11:58022->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:37,451 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:39,070 INFO Beamer-v6-link link timing inbound 192.168.2.11:24820->192.168.2.10:60521 ping_rtt_ms=1 ack_due_lag_ms(count/mean/max)=74/9.500/15.658 decode_ms(count/mean/max)=59/0.065/0.224 dispatch_ms(count/mean/max)=59/0.019/0.069 receive_queue_ms(count/mean/max)=59/0.058/0.227 write_ms(count/mean/max)=133/0.129/1.516 writer_wait_lag_ms(count/mean/max)=179/5.151/17.172
+2026-10-21 23:14:41,361 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 1882, last acked seq 1881, 1222 unacknowledged
+2026-10-21 23:14:41,361 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:14:41,361 INFO Beamer-hooks input returned to this PC (link_lost)
+2026-10-21 23:14:41,362 INFO Beamer-link link timing outbound 192.168.2.11:58022->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=3103/0.049/0.820 read_dispatch_ms(count/mean/max)=253/0.095/2.157 write_ms(count/mean/max)=3115/0.059/1.954 writer_wait_lag_ms(count/mean/max)=3114/0.002/4.723
+2026-10-21 23:14:43,422 INFO Beamer-link link route outbound 192.168.2.11:58023->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:43,791 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:48,060 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 2569, last acked seq 2568, 1468 unacknowledged
+2026-10-21 23:14:48,061 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:14:48,061 INFO Beamer-hooks input returned to this PC (link_lost)
+2026-10-21 23:14:48,061 INFO Beamer-link link timing outbound 192.168.2.11:58023->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=4036/0.022/0.415 read_dispatch_ms(count/mean/max)=279/0.101/8.348 write_ms(count/mean/max)=4048/0.036/0.789 writer_wait_lag_ms(count/mean/max)=4049/0.009/14.847
+2026-10-21 23:14:50,125 INFO Beamer-link link route outbound 192.168.2.11:58024->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:50,482 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:53,512 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 1140, last acked seq 1139, 1345 unacknowledged
+2026-10-21 23:14:53,513 INFO Beamer-link link timing outbound 192.168.2.11:58024->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=2485/0.049/0.792 read_dispatch_ms(count/mean/max)=194/0.085/2.141 write_ms(count/mean/max)=2495/0.058/1.575 writer_wait_lag_ms(count/mean/max)=2493/0.030/15.879
+2026-10-21 23:14:53,513 INFO Beamer-link input returned to this PC (link_lost)
+2026-10-21 23:14:55,601 INFO Beamer-link link route outbound 192.168.2.11:58025->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:14:55,621 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:14:58,107 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 914, last acked seq 913, 957 unacknowledged
+2026-10-21 23:14:58,107 INFO Beamer-link link timing outbound 192.168.2.11:58025->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=1870/0.043/0.454 read_dispatch_ms(count/mean/max)=156/0.107/2.297 write_ms(count/mean/max)=1878/0.050/1.698 writer_wait_lag_ms(count/mean/max)=1871/0.031/16.777
+2026-10-21 23:14:58,107 INFO Beamer-link input returned to this PC (link_lost)
+2026-10-21 23:14:58,107 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:15:00,210 INFO Beamer-link link route outbound 192.168.2.11:58027->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:15:00,506 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:15:03,355 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 1220, last acked seq 1219, 1187 unacknowledged
+2026-10-21 23:15:03,356 ERROR Beamer-hooks the link to QZZ1 went quiet; input returns to this PC
+2026-10-21 23:15:03,357 INFO Beamer-hooks input returned to this PC (link_lost)
+2026-10-21 23:15:03,357 INFO Beamer-link link timing outbound 192.168.2.11:58027->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=2406/0.075/2.375 read_dispatch_ms(count/mean/max)=183/0.127/1.732 write_ms(count/mean/max)=2416/0.124/2.790 writer_wait_lag_ms(count/mean/max)=2389/0.024/16.657
+2026-10-21 23:15:05,439 INFO Beamer-link link route outbound 192.168.2.11:58028->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:15:06,187 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:15:09,332 INFO Beamer-v6-link link timing inbound 192.168.2.11:24820->192.168.2.10:60521 ping_rtt_ms=2 ack_due_lag_ms(count/mean/max)=74/8.906/16.708 decode_ms(count/mean/max)=60/0.071/0.211 dispatch_ms(count/mean/max)=60/0.021/0.066 receive_queue_ms(count/mean/max)=60/0.068/0.288 write_ms(count/mean/max)=134/0.154/1.730 writer_wait_lag_ms(count/mean/max)=176/5.174/16.702
+2026-10-21 23:15:09,840 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 1621, last acked seq 1620, 1215 unacknowledged
+2026-10-21 23:15:09,841 INFO Beamer-link link timing outbound 192.168.2.11:58028->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=2835/0.043/0.847 read_dispatch_ms(count/mean/max)=235/0.090/1.759 write_ms(count/mean/max)=2847/0.056/2.141 writer_wait_lag_ms(count/mean/max)=2843/0.054/16.340
+2026-10-21 23:15:09,841 INFO Beamer-link input returned to this PC (link_lost)
+2026-10-21 23:15:11,921 INFO Beamer-link link route outbound 192.168.2.11:58029->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:15:12,826 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:15:13,508 INFO Beamer-link input returned to this PC (switch), at its left edge
+2026-10-21 23:15:14,790 INFO Beamer-hooks input is on QZZ1, at its right edge
+2026-10-21 23:15:18,751 WARNING Beamer-link QZZ1 stopped acknowledging input: oldest seq 2732, last acked seq 2731, 1481 unacknowledged
+2026-10-21 23:15:18,752 INFO Beamer-link link timing outbound 192.168.2.11:58029->192.168.2.10:24820 ping_rtt_ms=unavailable input_queue_ms(count/mean/max)=4212/0.049/1.117 read_dispatch_ms(count/mean/max)=341/0.107/9.144 write_ms(count/mean/max)=4231/0.056/2.262 writer_wait_lag_ms(count/mean/max)=4252/0.090/16.789
+2026-10-21 23:15:18,752 INFO Beamer-link input returned to this PC (link_lost)
+2026-10-21 23:15:20,824 INFO Beamer-link link route outbound 192.168.2.11:58031->192.168.2.10:24820 interface_address=192.168.2.11 nodelay=1 send_buffer=65536 receive_buffer=65536
+2026-10-21 23:15:39,489 INFO Beamer-v6-link link timing inbound 192.168.2.11:24820->192.168.2.10:60521 ping_rtt_ms=2 ack_due_lag_ms(count/mean/max)=74/10.352/16.356 decode_ms(count/mean/max)=59/0.093/0.227 dispatch_ms(count/mean/max)=59/0.027/0.070 receive_queue_ms(count/mean/max)=59/0.075/0.145 write_ms(count/mean/max)=132/0.179/1.771 writer_wait_lag_ms(count/mean/max)=187/5.385/16.393
+2026-10-21 23:15:48,778 INFO Beamer-link link timing outbound 192.168.2.11:58031->192.168.2.10:24820 ping_rtt_ms=2 read_dispatch_ms(count/mean/max)=125/0.183/1.790 write_ms(count/mean/max)=57/0.141/0.605 writer_wait_lag_ms(count/mean/max)=465/12.312/17.145
+2026-10-21 23:16:09,815 INFO Beamer-v6-link link timing inbound 192.168.2.11:24820->192.168.2.10:60521 ping_rtt_ms=2 ack_due_lag_ms(count/mean/max)=73/10.990/15.324 decode_ms(count/mean/max)=60/0.106/0.225 dispatch_ms(count/mean/max)=60/0.031/0.071 receive_queue_ms(count/mean/max)=60/0.086/0.271 write_ms(count/mean/max)=134/0.187/0.485 writer_wait_lag_ms(count/mean/max)=197/5.165/17.207
